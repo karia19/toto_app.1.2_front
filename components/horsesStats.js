@@ -117,7 +117,7 @@ const todayHorses = () => {
                             <thead>
                                 <tr>
                                         <th>Model</th>
-                                    {rTensor['boost'].map((x, y) =>
+                                             {rTensor['boost'].map((x, y) =>
                                         
                                         <th>{y + 1}</th>
                                     
@@ -127,7 +127,7 @@ const todayHorses = () => {
                             <tbody>
                                 <tr>
                                 <td>Boost</td>
-                                {rTensor['boost'].map((x ,y) =>
+                                    {rTensor['boost'].map((x ,y) =>
                                     // eslint-disable-next-line react/jsx-key
                                     
                                     <td>{x}</td>

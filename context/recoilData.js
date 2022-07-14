@@ -33,10 +33,21 @@ export const horseOds = atom({
     key: "horseOds",
     default: []
 })
+export const historyOds = atom({
+    key: "historyOds",
+    default: []
+})
+
 export const selectStart = atom({
     key: "selectStart",
     default: 1
 })
+export const detailsForResults = atom({
+    key: "detailsForResults",
+    default: []
+})
+
+
 
 export const todayOds = selector({
     key: "todayOds",
@@ -50,3 +61,14 @@ export const todayOds = selector({
     }
 })
 
+export const selectDetailsRes = selector({
+    key: "selectDetailsRes",
+    get: ({ get }) => {
+        const resultsdata = get(detailsForResults)
+        const startNum = get(selectStart)
+        const filteredRes = resultsdata.filter(x => x['raceNumber'] == startNum)
+
+        return filteredRes[0]
+
+    }
+})

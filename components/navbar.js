@@ -16,7 +16,7 @@ const Navia = () => {
                 <nav className={styles.navData}>
                     <ul>
                          <li><Link href="/track_stats" ><a>History data</a></Link></li>
-                         <li><Link href="/main" ><a>machine_learn</a></Link></li>
+                         <li><Link href="/toto_history" ><a>Odds</a></Link></li>
 
                     </ul>
                 
