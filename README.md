@@ -6,8 +6,7 @@ Made in nextjs
 
 
  ## TO RUN
-- Fromtend for server https://github.com/karia19/toto_app.1.2/tree/master
-- Made in nextjs
+- Run server https://github.com/karia19/toto_app.1.2/tree/master
 - Run docker compose up -d
 
 
