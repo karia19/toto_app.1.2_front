@@ -4,6 +4,8 @@
 Calendar show past days odds movement. Some problems in days ....
 Made in nextjs
 
+## BUGS
+- Year 2023 data dont work ( cahnges on veikkaus api ?? ) working on ...
 
  ## TO RUN
 - Run server https://github.com/karia19/toto_app.1.2/tree/master
