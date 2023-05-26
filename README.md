@@ -12,6 +12,5 @@ Made in nextjs
 - Run docker compose up -d
 
 
-- In use http://front_toto.kumstrapi.xyz
 
 
